@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+	<suite name="Test Suite">
+		<listeners>
+           <listener class-name="io.learn.Listener.TestListener"/>
+       </listeners>
+		<parameter name="browser" value="edge"/>
+	    <test name="All Test">
+	        <classes>
+	        	<class name="io.learn.AppTest.LoginTest"/>
+	        	<class name="io.learn.AppTest.Logout"/>
+	        	<class name="io.learn.AppTest.ProductTest"/>
+	            <class name="io.learn.AppTest.CartTest"/>
+	        </classes>
+	    </test>
+	
+	</suite>

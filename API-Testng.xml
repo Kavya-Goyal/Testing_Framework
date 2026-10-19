@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+	<suite name="Test Suite">
+		    <listeners>
+		    	<listener class-name="io.learn.Listener.APITestListener"></listener>
+		    </listeners>
+	    <test name="API Test">
+	        <classes>
+	            <class name="io.learn.AppTest.API.APITest"/>
+	        </classes>
+	    </test>
+	
+	</suite>
